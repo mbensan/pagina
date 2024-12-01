@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Network SPA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <!-- Load Require CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font CSS -->
+  <link href="assets/css/boxicon.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Load Tempalte CSS -->
+  <link rel="stylesheet" href="assets/css/templatemo.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <nav id="main_nav" class="fixed-top navbar navbar-expand-lg navbar-light bg-white shadow">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a class="navbar-brand h1" href="index.html">
+        <img src="assets/img/logo2.png" alt="logo">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+        <div class=" mx-xl-5 mb-2">
+          <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+            <li class="nav-item">
+              <a class="nav-link btn-outline-primary rounded-pill px-3" href="#home-section">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-outline-primary rounded-pill px-3" href="#about-section">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-outline-primary rounded-pill px-3" href="#team-section">Nuestro Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-outline-primary rounded-pill px-3" href="#servicios-section">Nuestros Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-outline-primary rounded-pill px-3" href="#contact-section">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="navbar align-self-center d-flex">
+          <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
+          <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
+          <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
+        </div> -->
+      </div>
+    </div>
+  </nav>
+  <!-- Close Header -->
+
+
+  <!-- Start Banner Hero -->
+  <div id="home-section" class="banner-wrapper bg-light">
+    <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
+
+      <!-- Start slider -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+
+            <div class="py-5 row d-flex align-items-center">
+              <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                <h1 class="banner-heading h1 text-secondary display-4 mb-0 pb-3 mx-0 px-0 light-300">
+                  "No es posible resolver los problemas de hoy con las soluciones de ayer"
+                </h1>
+                <p class="banner-body text-muted py-3">
+                  Roger Van Oech
+                </p>
+                <!-- <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a> -->
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+
+            <div class="py-5 row d-flex align-items-center">
+              <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                <h1 class="banner-heading h1 text-secondary display-5 mb-0 pb-3 mx-0 px-0 light-300">
+                  "El trabajo en equipo es el secreto que hace que personas normales alcancen resultados <strong>extraordinarios</strong>"
+                </h1>
+                <p class="banner-body text-muted py-3">
+                  Ifeanyi Onuoha
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <i class='bx bx-chevron-left'></i>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <i class='bx bx-chevron-right'></i>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+      <!-- End slider -->
+
+    </div>
+  </div>
+  <!-- End Banner Hero -->
+
+  <!-- Start Service -->
+  <section class="service-wrapper py-3">
+    <div class="container-fluid pb-3">
+      <div class="row">
+        <h2 class="h2 text-center col-12 py-5 semi-bold-600">Lo que hacemos</h2>
+        <div class="service-header col-2 col-lg-3 text-end light-300">
+          <i class='bx bx-gift h3 mt-1'></i>
+        </div>
+        <div class="service-heading col-10 col-lg-9 text-start float-end light-300">
+          <h2 class="h3 pb-4 typo-space-line">Seguridad y Confianza para el Futuro</h2>
+        </div>
+      </div>
+      <p class="service-footer col-10 offset-2 col-lg-9 offset-lg-3 text-start pb-3 text-muted px-2">
+        SOMOS UN EQUIPO DE PROFESIONALES, MULTIDISCIPLINARIO, CREATIVOS, CON EXPERIENCIA, RED DE CONTACTOS Y ALIANZAS ESTRATÉGICAS QUE NOS PERMITEN GESTIONAR CON ÉXITO LOS CASOS EN QUE TRABAJAMOS
+      </p>
+      <p class="service-footer col-10 offset-2 col-lg-9 offset-lg-3 text-start pb-3 text-muted px-2">
+        ASISTIMOS A EMPRESARIOS Y EMPRESAS DE TAMAÑO MEDIO EN PROCESOS DE CRISIS ORIGINADOS EN PROBLEMAS DE CRECIMIENTO, MERCADO, FINANCIERO, ORGANIZACIONAL O DIFERERENCIAS ENTRE SOCIOS. 
+      </p>
+    </div>
+
+    <div class="service-tag py-5 bg-secondary">
+      <div class="col-md-12">
+        <ul class="nav d-flex justify-content-center">
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Start Nosotros Section -->
+  <section class="bg-light w-100" id="about-section">
+    <div class="container">
+      <div class="row d-flex align-items-center py-5">
+          <div class="col-lg-6 text-start">
+              <h1 class="h2 py-5 text-primary typo-space-line">Nosotros</h1>
+              <p class="light-300">
+                CONFIAMOS EN EL MÉTODO DE ANALIZAR, PLANIFICAR, EJECUTAR PROFESIONALMENTE Y CONTROLAR LA GESTIÓN CON INDEPENDENCIA, COMO LA BASE PARA LOGRAR EL ÉXITO DE UN PROYECTO O EMPRESA
+              </p>
+              <p class="light-300">
+                NOS INVOLUCRAMOS EN LA GESTIÓN Y LOS RESULTADOS DE LAS RECOMENDACIONES QUE HACEMOS, ACOMPAÑANDO A NUESTROS CLIENTES EN EL LOGRO DE LOS OBJETIVOS PROPUESTOS
+              </p>
+              <p class="light-300">
+                UNIMOS EXPERIENCIAS, POTENCIAMOS LA CREATIVIDAD Y CONTRIBUIMOS A QUE NUESTROS CLIENTES PUEDAN OPTIMIZAR LOS RESULTADOS DE SU INVERSIÓN, EL COSTO Y RIESGO DE SUS NEGOCIOS O PROYECTOS
+              </p>
+          </div>
+          <div class="col-lg-6">
+              <img src="./assets/img/banner-img-02.svg">
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Nosotros Section -->
+
+  <!-- Start Team Member -->
+  <section class="container py-5" id="team-section">
+    <div class="pt-5 pb-3 align-items-center gx-5">
+      <div class="text-center">
+        <h2 class="h2 py-5 typo-space-line">Equipo de Trabajo</h2>
+        <p class="text-muted light-300">
+          Profesionales con vasta experiencia corporativa y tributaria
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-3">
+          <div class="team-member">
+              <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/default_profile_picture.jpg" alt="Card image">
+              <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                  <li><strong>Carlos Olguín</strong></li>
+                  <li>INGENIERO COMERCIAL DE LA UNIVERSIDAD DE CHILE, MAGISTER EN METODOS CUANTITAVOS PARA FINANZAS Y ECONOMÍA, ESCOLATINA. CON 32 AÑOS DE EXPERIENCIA EN DESARROLLO CORPORATIVO, COMPRA VENTA DE EMPRESAS, ALIANZAS, FUSIONES, JOINT VENTURE, REORGANIZACIONES  Y FINANCIAMIENTO ESTRUCTURADO
+                  </li>
+              </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3">
+          <div class="team-member">
+              <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/default_profile_picture.jpg" alt="Card image">
+              <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                  <li><strong>Geraldine Araya</strong></li>
+                  <li>ABOGADA UNIVERSIDAD CENTRAL,  PERFECCIONAMIENTO EN DERECHO CIVIL MATERIA CONTRACTUAL UNIVERSIDAD ADOLFO IBÁÑEZ, CON 31 AÑOS DE EXPERIENCIA EN ASESORÍA CORPORATIVA Y REPRESENTACIÓN DE EMPRESAS NACIONALES Y EXTRANJERAS, GESTIÓN Y DESARROLLO DE NEGOCIACIONES CORPORATIVAS.
+                  </li>
+              </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3">
+          <div class="team-member">
+              <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/default_profile_picture.jpg" alt="Card image">
+              <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                  <li><strong>Pablo Carrasco</strong></li>
+                  <li>INGENIERO COMERCIAL DE LA UNIVERSIDAD DE SANTIAGO,  DIPLOMADO EN SISTEMAS DE INFORMACIÓN GEOGRÁFICOS DE LA UNIVERSIDAD DE BUENOS AIRES, DIPLOMADO EN DATA MINING APLICADO DE LA UNIVERSIDAD CATÓLICA. CON 30 AÑOS DE EXPERIENCIA EN DATA MINING Y GEOMARKETING APLICADO.
+                  </li>
+              </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3">
+          <div class="team-member">
+              <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/default_profile_picture.jpg" alt="Card image">
+              <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                  <li><strong>Pablo Bulo</strong></li>
+                  <li>
+                    INGENIERO ADMINISTRACIÓN DE EMPRESAS CON MENCIÓN EN FINANZAS DE INACAP. MBA EN GESTIÓN DE EMPRESAS DE LA ESCUELA DE NEGOCIOS DE ESPAÑA. CON 30 AÑOS DE EXPERIENCIA EN GERENCIAMIENTO Y GESTIÓN DE EMPRESAS.
+                  </li>
+              </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3">
+          <div class="team-member">
+              <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/default_profile_picture.jpg" alt="Card image">
+              <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                  <li><strong>Rodrigo Toledo</strong></li>
+                  <li>
+                    ABOGADO DE LA UNIVERSIDAD DE CONCEPCIÓN, DIPOLOMADO EN DERECHO PROCESAL PENAL Y DERECHO ECONÓMICO PENAL. EX FISCAL DEL MINISTERIO PÚBLICO ESPECIALIZADO EN DELITOS ECONÓMICOS Y PROBIDAD ADMINSITRATIVA. 35 AÑOS DE EXPERIENCIA EN DERECHO ECONÓMICO, COMERCIAL, PENAL, TEMÁTICAS DE GENERO, PUEBLOS ORIGINARIOS Y POBREZA
+                  </li>
+              </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3">
+          <div class="team-member">
+              <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/default_profile_picture.jpg" alt="Card image">
+              <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                  <li><strong>Hugo Atala</strong></li>
+                  <li>
+                    ABOGADO UNIVERSIDAD ACADEMIA HUMANISMO CRISTIANO. CON 20 AÑOS DE EXPERIENCIA EN EL ÁREA JURÍDICA EN MATERIA LABORAL, PENAL, CIVIL, FAMILIA Y LIQUIDACIONES DE EMPRESAS Y PERSONAS NATURALES.
+                  </li>
+              </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3">
+          <div class="team-member">
+              <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/default_profile_picture.jpg" alt="Card image">
+              <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                  <li><strong>Daisy Salcedo</strong></li>
+                  <li>
+                    LICENCIADA EN CIENCIAS JURÍDICAS Y SOCIALES DE LA UNIVERSIDAD IBEROAMERICANA DE CIENCIAS Y TECNOLOGÍA, CON MÁS DE 10 AÑOS DE EXPERIENCIA EN PROCEDIMIENTOS EJECUTIVOS LABORALES, CIVILES Y LIQUIDACIONES CONCURSALES DE EMPRESAS Y PERSONAS NATURALES
+                  </li>
+              </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3">
+          <div class="team-member">
+              <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/default_profile_picture.jpg" alt="Card image">
+              <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                  <li><strong>Pablo Vásquez</strong></li>
+                  <li>
+                    ABOGADO UNIVERSIDAD ARCIS. CON 20 AÑOS DE EXPERIENCIA EN EL ÁREA JURÍDICA EN MATERIA LABORAL, PENAL, CIVIL, FAMILIA Y LIQUIDACIONES DE EMPRESAS Y PERSONAS NATURALES.
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- End Team Member -->
+
+  <!-- Start Confían Section -->
+  <section class="bg-secondary py-3" id="confian-section">
+    <div class="container py-5">
+      <h2 class="h2 text-white text-center py-5">Confían en Nosotros</h2>
+      <div class="row collage">
+        <div class="col p-2">
+          <img src="assets/img/confian1.png" alt="">
+          <img src="assets/img/confian2.png" alt="">
+          <img src="assets/img/confian3.png" alt="">
+        </div>
+        <div class="col">
+          <img src="assets/img/confian4.png" alt="">
+          <img src="assets/img/confian5.png" alt="">
+          <img src="assets/img/confian6.png" alt="">
+          <img src="assets/img/confian7.png" alt="">
+          <img src="assets/img/confian8.png" alt="">
+        </div>
+        <div class="col">
+          <img src="assets/img/confian9.png" alt="">
+          <img src="assets/img/confian10.png" alt="">
+          <img src="assets/img/confian11.png" alt="">
+          <img src="assets/img/confian12.png" alt="">
+        </div>
+        <div class="col">
+          <img src="assets/img/confian13.png" alt="">
+          <img src="assets/img/confian14.png" alt="">
+          <img src="assets/img/confian15.png" alt="">
+          <img src="assets/img/confian16.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Confian Section -->
+
+  <!-- Start Our Work -->
+  <section class="container py-5" id="servicios-section">
+    <h2 class="h2 py-5 typo-space-line">Nuestros Servicios</h2>
+
+    <div class="row projects gx-lg-5">
+      <!-- <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none project marketing social business">
+          <div class="service-work overflow-hidden card mb-5 mx-5 m-sm-0">
+              <img class="card-img-top" src="./assets/img/our-work-01.jpg" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title light-300 text-dark">Digital Marketing</h5>
+                  <p class="card-text light-300 text-dark">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolor.
+                  </p>
+                  <span class="text-decoration-none text-primary light-300">
+                        Read more <i class='bx bxs-hand-right ms-1'></i>
+                    </span>
+              </div>
+          </div>
+      </a> -->
+      <div class="col-6 col-md-4 text-decoration-none project graphic social">
+        <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+          <img class="card-img-top" src="./assets/img/our-work-01.jpg" alt="...">
+          <div class="card-body">
+              <h5 class="card-title light-300 text-dark">Dirección Estratégica</h5>
+              <p class="card-text light-300 text-dark">
+                <ul>
+                  <li>PLANIFICACIÓN Y DESARROLLO ESTRATÉGICO</li>
+                  <li>COMPRA VENTA EMPRESAS, ALIANZAS, FUSIONES, Y  REORGANIZACIONES</li>
+                  <li>ACCESO A FONDOS DE INVERSIÓN, FACTORING, LEASING E INVERSIONISTAS PRIVADOS</li>
+                  <li>PLANIFICACIÓN TRIBUTARIA, CONTROL INTERNO Y CONTROL DE GESTIÓN</li>
+                </ul>
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 text-decoration-none project graphic social">
+        <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+          <img class="card-img-top" src="./assets/img/our-work-02.jpg" alt="...">
+          <div class="card-body">
+              <h5 class="card-title light-300 text-dark">Asesoría Jurídica</h5>
+              <p class="card-text light-300 text-dark">
+                <ul>
+                  <li>ASESORÍA JURIDICA CORPORATIVA, CUMPLIMIENTO NORMATIVO Y MATERIAS PENALES</li>
+                  <li>ASESORÍA Y GESTIÓN EN PROCESO DE CRISIS, REORGANIZACIÓN Y/O LIQUIDACIÓN DE EMPRESAS Y PERSONAS</li>
+                  <li>ACCESO A FONDOS DE INVERSIÓN, FACTORING, LEASING E INVERSIONISTAS PRIVADOS</li>
+                  <li>PLANIFICACIÓN TRIBUTARIA, CONTROL INTERNO Y CONTROL DE GESTIÓN</li>
+                </ul>
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 text-decoration-none project graphic social">
+        <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+          <img class="card-img-top" src="./assets/img/our-work-01.jpg" alt="...">
+          <div class="card-body">
+              <h5 class="card-title light-300 text-dark">Data Science & Insights</h5>
+              <p class="card-text light-300 text-dark">
+                <ul>
+                  <li>ESTUDIOS DE MERCADO, DATA MINING Y GEOREFERENCIACIÓN</li>
+                  <li>ANÁLISIS DE PUNTOS Y ESTUDIOS DE DEMANDA</li>
+                  <li>GESTIÓN Y DESARROLLO INMOBILIARIO</li>
+                </ul>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Our Work -->
+
+  <!-- Start Contact -->
+  <section class="container py-5" id="contact-section">
+
+    <h1 class="col-12 col-xl-8 h2 text-left text-primary pt-3 text-center">Contáctenos</h1>
+    <h2 class="col-12 col-xl-8 h4 text-left regular-400">Lo/a apoyaremos</h2>
+
+    <div class="row pb-4">
+      <div class="col-lg-4">
+          <div class="contact row mb-4">
+              <div class="contact-icon col-lg-3 col-3">
+                  <div class="py-3 mb-2 text-center border rounded text-secondary">
+                      <i class='display-6 bx bx-news'></i>
+                  </div>
+              </div>
+              <ul class="contact-info list-unstyled col-lg-9 col-9  light-300">
+                  <li class="h5 mb-0">Teléfono de contacto</li>
+                  <li class="text-muted">Mr. John Doe</li>
+                  <li class="text-muted">010-020-0340</li>
+              </ul>
+          </div>
+
+          <div class="contact row mb-4">
+              <div class="contact-icon col-lg-3 col-3">
+                  <div class="border py-3 mb-2 text-center border rounded text-secondary">
+                      <i class='bx bx-laptop display-6' ></i>
+                  </div>
+              </div>
+              <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
+                  <li class="h5 mb-0">Technical Contact</li>
+                  <li class="text-muted">Mr. John Stiles</li>
+                  <li class="text-muted">010-020-0340</li>
+              </ul>
+          </div>
+
+          <div class="contact row mb-4">
+              <div class="contact-icon col-lg-3 col-3">
+                  <div class="border py-3 mb-2 text-center border rounded text-secondary">
+                      <i class='bx bx-money display-6'></i>
+                  </div>
+              </div>
+              <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
+                  <li class="h5 mb-0">Billing Contact</li>
+                  <li class="text-muted">Mr. Richard Miles</li>
+                  <li class="text-muted">010-020-0340</li>
+              </ul>
+          </div>
+
+      </div>
+
+
+      <!-- Start Contact Form -->
+      <div class="col-lg-8 ">
+        <form class="contact-form row" method="post" action="#" role="form">
+
+          <div class="col-lg-6 mb-4">
+            <div class="form-floating">
+                <input type="text" class="form-control form-control-lg light-300" id="floatingname" name="inputname" placeholder="Name">
+                <label for="floatingname light-300">Nombre</label>
+            </div>
+          </div><!-- End Input Name -->
+
+          <div class="col-lg-6 mb-4">
+            <div class="form-floating">
+              <input type="text" class="form-control form-control-lg light-300" id="floatingemail" name="inputemail" placeholder="Email">
+              <label for="floatingemail light-300">Email</label>
+            </div>
+          </div><!-- End Input Email -->
+
+          <div class="col-lg-6 mb-4">
+            <div class="form-floating">
+              <input type="text" class="form-control form-control-lg light-300" id="floatingphone" name="inputphone" placeholder="Phone">
+              <label for="floatingphone light-300">Teléfono (opcional)</label>
+            </div>
+          </div><!-- End Input Phone -->
+
+          <div class="col-lg-6 mb-4">
+              <div class="form-floating">
+                  <input type="text" class="form-control form-control-lg light-300" id="floatingcompany" name="inputcompany" placeholder="Company Name">
+                  <label for="floatingcompany light-300">Compañía</label>
+              </div>
+          </div><!-- End Input Company Name -->
+
+          <div class="col-12">
+            <div class="form-floating mb-4">
+              <input type="text" class="form-control form-control-lg light-300" id="floatingsubject" name="inputsubject" placeholder="Subject">
+              <label for="floatingsubject light-300">Título</label>
+            </div>
+          </div><!-- End Input Subject -->
+
+          <div class="col-12">
+              <div class="form-floating mb-3">
+                  <textarea class="form-control light-300" rows="8" placeholder="Message" id="floatingtextarea"></textarea>
+                  <label for="floatingtextarea light-300">Mensaje</label>
+              </div>
+          </div><!-- End Textarea Message -->
+
+          <div class="col-md-12 col-12 m-auto text-end">
+            <button type="submit" class="btn btn-secondary rounded-pill px-md-5 px-4 py-2 radius-0 text-light light-300">Enviar</button>
+          </div>
+
+        </form>
+      </div>
+      <!-- End Contact Form -->
+
+
+    </div>
+  </section>
+  <!-- End Contact -->
+
+  <!-- Start Footer -->
+  <footer class="bg-secondary pt-4">
+    <!-- <div class="container">
+      <div class="row py-4">
+
+        <div class="col-lg-3 col-12 align-left">
+          <a class="navbar-brand" href="index.html">
+            <i class='bx bx-buildings bx-sm text-light'></i>
+            <span class="text-light h5">Purple</span> <span class="text-light h5 semi-bold-600">Buzz</span>
+          </a>
+          <p class="text-light my-lg-4 my-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut.
+          </p>
+          <ul class="list-inline footer-icons light-300">
+            <li class="list-inline-item m-0">
+              <a class="text-light" target="_blank" href="http://facebook.com/">
+                <i class='bx bxl-facebook-square bx-md'></i>
+              </a>
+            </li>
+            <li class="list-inline-item m-0">
+              <a class="text-light" target="_blank" href="https://www.linkedin.com/">
+                <i class='bx bxl-linkedin-square bx-md'></i>
+              </a>
+            </li>
+            <li class="list-inline-item m-0">
+              <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+                <i class='bx bxl-whatsapp-square bx-md'></i>
+              </a>
+            </li>
+            <li class="list-inline-item m-0">
+              <a class="text-light" target="_blank" href="https://www.flickr.com/">
+                <i class='bx bxl-flickr-square bx-md'></i>
+              </a>
+            </li>
+            <li class="list-inline-item m-0">
+              <a class="text-light" target="_blank" href="https://www.medium.com/">
+                <i class='bx bxl-medium-square bx-md' ></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+          <h3 class="h4 pb-lg-3 text-light light-300">Our Company</h2>
+            <ul class="list-unstyled text-light light-300">
+              <li class="pb-2">
+                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.html">Home</a>
+              </li>
+              <li class="pb-2">
+                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.html">About Us</a>
+              </li>
+              <li class="pb-2">
+                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.html">Work</a>
+              </li>
+              <li class="pb-2">
+                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" href="pricing.html">Price</a>
+              </li>
+              <li class="pb-2">
+                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.html">Contact</a>
+              </li>
+            </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+          <h2 class="h4 pb-lg-3 text-light light-300">Our Works</h2>
+          <ul class="list-unstyled text-light light-300">
+            <li class="pb-2">
+              <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Branding</a>
+            </li>
+            <li class="pb-2">
+              <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Business</a>
+            </li>
+            <li class="pb-2">
+              <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Marketing</a>
+            </li>
+            <li class="pb-2">
+              <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Social Media</a>
+            </li>
+            <li class="pb-2">
+              <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Digital Solution</a>
+            </li>
+            <li class="pb-2">
+              <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Graphic</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+          <h2 class="h4 pb-lg-3 text-light light-300">For Client</h2>
+          <ul class="list-unstyled text-light light-300">
+            <li class="pb-2">
+              <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:010-020-0340">010-020-0340</a>
+            </li>
+            <li class="pb-2">
+              <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:info@company.com">info@company.com</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div> -->
+
+    <div class="w-100 bg-primary py-3">
+      <div class="container">
+        <div class="row pt-2">
+          <div class="col-lg-6 col-sm-12">
+            <p class="text-lg-start text-center text-light light-300">
+              Made with love &#128151, and Bootstrap 5
+            </p>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <p class="text-lg-end text-center text-light light-300">
+              .
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+
+  <!-- Bootstrap -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- Load jQuery require for isotope -->
+  <script src="assets/js/jquery.min.js"></script>
+  <!-- Isotope -->
+  <script src="assets/js/isotope.pkgd.js"></script>
+  <!-- Page Script -->
+  <script>
+    $(window).load(function() {
+      // init Isotope
+      var $projects = $('.projects').isotope({
+        itemSelector: '.project',
+        layoutMode: 'fitRows'
+      });
+      $(".filter-btn").click(function() {
+        var data_filter = $(this).attr("data-filter");
+        $projects.isotope({
+          filter: data_filter
+        });
+        $(".filter-btn").removeClass("active");
+        $(".filter-btn").removeClass("shadow");
+        $(this).addClass("active");
+        $(this).addClass("shadow");
+        return false;
+      });
+    });
+  </script>
+  <!-- Templatemo -->
+  <script src="assets/js/templatemo.js"></script>
+  <!-- Custom -->
+  <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
