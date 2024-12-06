@@ -17,7 +17,9 @@
 #confian-section .col-md-3  {
   vertical-align: middle;
 }
-
+.collage .confia {
+  margin: 2rem;
+}
 .collage img {
   display: block;
   width: 100%;
